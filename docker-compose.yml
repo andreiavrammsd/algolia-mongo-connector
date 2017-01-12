@@ -1,0 +1,8 @@
+version: '2'
+
+services:
+    algolia:
+        env_file: .env
+        build: .
+        command: ["/startup.sh"]
+        restart: unless-stopped
