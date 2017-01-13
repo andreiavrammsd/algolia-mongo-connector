@@ -2,6 +2,10 @@
 
 ## Basic usage example of Algolia Mongo connector with Docker (sync your db with Algolia).
 
+### Warning
+
+The Mongo connector is deprecated, you should use a [client](https://www.algolia.com/doc/api-client/) if possible.
+
 ### Requires
 
 * [Algolia](https://www.algolia.com/)
